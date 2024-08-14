@@ -48,7 +48,7 @@ export default function LoginPage() {
                 <div>{currentTime}</div>
                 <div>{currentDay}, {currentDate}</div>
             </div>
-            <h1 className="text-4xl font-bold text-center text-white mb-6">SERENA HOTEL</h1>
+            <h1 className="text-4xl font-bold text-center text-white mb-6"> Hotel</h1>
             <div className="max-w-md w-full border border-white p-8 rounded-lg flex flex-col items-center">
                 <h2 className="text-2xl font-bold text-center text-white mb-4">Login</h2>
                 <form className="w-full" onSubmit={handleLogin}>
